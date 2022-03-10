@@ -1,0 +1,28 @@
+{
+  "name": "users_excel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sasuke417/Users_Excel.git"
+  },
+  "author": "Shivender Chaudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sasuke417/Users_Excel/issues"
+  },
+  "homepage": "https://github.com/Sasuke417/Users_Excel#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.5"
+  }
+}
